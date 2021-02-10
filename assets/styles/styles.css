@@ -224,7 +224,18 @@ header.header span.scrollup svg {
     z-index: -1;
     transition: top 0.8s ease-out;
 }
-
+.page-home .CV-button:before {
+	background-color: #add8e6;
+}
+.page-art .CV-button:before{
+	background-color: #deb887;
+}
+.page-code .CV-button:before{
+	background-color: #009848;
+}
+.page-photo .CV-button:before {
+	background-color: #ff5851;
+}
 .CV-button:hover {
 	color: white;
     cursor: pointer;
